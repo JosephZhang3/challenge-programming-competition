@@ -41,7 +41,7 @@ void getNext(int next[], string t)
         {
             j++;
             k++;
-            next[j] = k;
+            next[j] = k;// 实际等于next[k++]
         }
         else
         {
